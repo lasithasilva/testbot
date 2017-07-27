@@ -33,7 +33,7 @@ var intentDialog = new builder.IntentDialog({recognizers: [luisRecognizer]});
 
 //Root dialog
 bot.dialog('/', intentDialog);
-intentDialog.onDefault(builder.DialogAction.send('Sorry, I didn\'t understand that.'));
+intentDialog.onDefault(builder.DialogAction.send('Sorry, I didn\'t understand that. Is there anything else you want to know about Mars!'));
 intentDialog.matches('Greeting', '/greetingDialog');
 intentDialog.matches('Size', '/sizeDialog')
 intentDialog.matches('Distance', '/distanceDialog');

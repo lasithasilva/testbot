@@ -49,7 +49,7 @@ bot.dialog('/greetingDialog',
 bot.dialog('/sizeDialog',
     function(session)
     {
-        session.endDialog('Mars has a radius of 3,390km, compared to Earth\'s radius which is 6,371km');
+        session.endDialog('Mars has a radius of 3,390km, compared to Earth\'s radius which is 6,371km. Thats big right?');
     }
 )
 
